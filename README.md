@@ -19,19 +19,19 @@
 
 #Architecture
 
-SMDataService
+####SMDataService
 
-SMBaseModel
+####SMBaseModel
 
 
 
 #Usage
 
-SMDataService
+####SMDataService
 
 必须子类化SMDataService对象方可使用
 
-Creating a Data Task
+####Creating a Data Task
 
 子类化SMDataService对象（NewsDataService），设置参数（也就是定义子类的属性），如果请求参数是关键字，定义属性的名字在前面添加(_) 例如：id 定义成 _id
 
@@ -140,13 +140,13 @@ NewsDataService.m代码
             NSLog(@"error:%@",error);
         }];
 
-SMBaseModel
+####SMBaseModel
 
 是为了方便数据原型创建的基类，如参数名字和子类属性的名字相同可以实现自动映射功能
 
 如果参数类型或者名字不能直接映射可以集成父类初始化方法，手动添加映射
 
-Creating a Model
+####Creating a Model
 
 例如子类化SMBaseModel（NewModel类）,赋值代码如下：
 
