@@ -154,7 +154,7 @@ NewsDataService.m代码
 
     NewModel * newModel = [[NewModel alloc] initWithContentDic:dic];
 
-如不能完成的数据原型中部分数据的映射，可以在NewModel.m中实现下面代码：
+如不能完成的数据原型中部分数据的映射，可以在NewModel.m中实现下面代码：
 
     /*
      
