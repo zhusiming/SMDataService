@@ -57,6 +57,7 @@
                 }
             }
         }
+        free(properties);
     }
     return self;
 }
@@ -193,6 +194,7 @@
             }
         }
     }
+    free(properties);
     
     return attributes;
 }
